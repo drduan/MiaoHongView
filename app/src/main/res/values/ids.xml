@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 加载对话框 -->
+    <item name="loadingdialog_title_TextView" type="id">false</item>
+    <item name="loadingdialog_refresh_ImageView" type="id">false</item>
+    <item name="loadingdialog_cancel_ImageView" type="id">false</item>
+    <!-- loading_data -->
+    <item name="loading_data_going_RelativeLayout" type="id">false</item>
+    <item name="loading_data_going_refresh_ImageView" type="id">false</item>
+    <item name="loading_data_fail_LinearLayout" type="id">false</item>
+    <item name="loading_data_FrameLayout" type="id">false</item>
+
+    <!-- dialog -->
+    <item name="parentdialog_title_TextView" type="id">false</item>
+    <item name="parentdialog_content_FrameLayout" type="id">false</item>
+    <item name="parentdialog_cancel_Button" type="id">false</item>
+    <item name="parentdialog_confirm_Button" type="id">false</item>
+
+    <!-- loading -->
+    <item name="loading_RelativeLayout" type="id">false</item>
+
+    <!-- login -->
+    <item name="login_input_LinearLayout" type="id">false</item>
+    <item name="login_image" type="id">false</item>
+    <item name="login_username" type="id">false</item>
+    <item name="login_password" type="id">false</item>
+    <item name="login_serverip" type="id">false</item>
+    <item name="login_btn" type="id">false</item>
+    <item name="save_password" type="id">false</item>
+    <item name="register_Button" type="id">false</item>
+    <item name="login_fragment" type="id">false</item>
+    <item name="login_tab_RadioGroup" type="id">false</item>
+    <item name="login_tab_1_RadioButton" type="id">false</item>
+    <item name="login_tab_2_RadioButton" type="id">false</item>
+    <item name="login_content_FrameLayout" type="id">false</item>
+    <!-- register -->
+    <item name="login_tab2_account_EditText" type="id">false</item>
+    <item name="login_tab2_password_EditText" type="id">false</item>
+    <item name="login_tab2_passwordagain_EditText" type="id">false</item>
+    <item name="activity_userlogin" type="id">false</item>
+
+
+    <!-- main -->
+    <item name="main_header_RelativeLayout" type="id">false</item>
+    <item name="main_header_left_ImageView" type="id">false</item>
+    <item name="main_header_title_TextView" type="id">false</item>
+    <item name="main_header_right_FrameLayout" type="id">false</item>
+    <item name="main_FrameLayout" type="id">false</item>
+    <item name="main_fragment" type="id">false</item>
+    <item name="main_home" type="id">false</item>
+
+    <!-- leftmenu -->
+    <item name="leftmenu_FrameLayout" type="id">false</item>
+    <item name="left_fragment" type="id">false</item>
+    <item name="leftmenu_userinfo_LinearLayout" type="id">false</item>
+    <item name="leftmenu_usericon_ImageView" type="id">false</item>
+    <item name="leftmenu_username_TextView" type="id">false</item>
+    <item name="leftmenu_ListView" type="id">false</item>
+    <item name="leftmenu_item_icon_ImageView" type="id">false</item>
+    <item name="leftmenu_item_title_TextView" type="id">false</item>
+    <item name="leftmenu_logout_Button" type="id">false</item>
+
+    <!-- rightmenu -->
+    <item name="rightmenu_FrameLayout" type="id">false</item>
+    <!--<item name="header_menu_right_ImageView" type="id">false</item>-->
+
+    <!-- slidingmenu_control -->
+    <item name="slidingmenu_control_FrameLayout" type="id">false</item>
+    <item name="options_FrameLayout" type="id">false</item>
+    <!-- path -->
+    <item name="slidingmenu_control_path_MenuItemView" type="id">false</item>
+    <item name="slidingmenu_control_path_RelativeLayout" type="id">false</item>
+    <item name="slidingmenu_control_path_center_TextView" type="id">false</item>
+
+    <!-- generalview -->
+    <item name="general_listview_ListView" type="id">false</item>
+    <item name="general_listview_item_TextView" type="id">false</item>
+    <item name="general_gridview_GridView" type="id">false</item>
+    <item name="general_gridview_item_icon_ImageView" type="id">false</item>
+    <item name="general_gridview_item_title_TextView" type="id">false</item>
+
+    <!-- search -->
+    <item name="search_content_EditText" type="id">false</item>
+
+    <!-- 首页 -->
+    <item name="homepage_header_Gallery" type="id">false</item>
+    <item name="homepage_header_ViewPager" type="id">false</item>
+    <item name="homepage_header_TextView" type="id">false</item>
+    <item name="homepage_header_FlowIndicator" type="id">false</item>
+    <item name="homepage_ListView" type="id">false</item>
+    <item name="homepage_listview_item_TextView" type="id">false</item>
+    <item name="homepage_GridView" type="id">false</item>
+    <item name="homepage_gridview_item_ImageView" type="id">false</item>
+    <item name="homepage_gridview_item_TextView" type="id">false</item>
+    <item name="homepage_loading_TextView" type="id">false</item>
+    <item name="homepage_gallery_item_ImageView" type="id">false</item>
+
+    <!-- 公共二级菜单 -->
+    <item name="public_ViewPager" type="id">false</item>
+    <item name="public_viewpager_PagerSlidingTabStrip" type="id">false</item>
+    <item name="public_viewpager_spinner_ImageView" type="id">false</item>
+
+    <!-- 新闻列表页 -->
+    <item name="building_ImageView" type="id">false</item>
+    <item name="news_item_ListView" type="id">false</item>
+    <item name="news_listview_item_title_TextView" type="id">false</item>
+    <item name="news_listview_item_icon_ImageView" type="id">false</item>
+    <item name="news_listview_item_content_TextView" type="id">false</item>
+    <item name="news_listview_item_attention_TextView" type="id">false</item>
+    <item name="news_listview_item_RelativeLayout" type="id">false</item>
+
+    <!-- 新闻详细页 -->
+    <item name="news_detail_title_TextView" type="id">false</item>
+    <item name="news_detail_author_TextView" type="id">false</item>
+    <item name="news_detail_time_TextView" type="id">false</item>
+    <item name="news_detail_pic_ImageView" type="id">false</item>
+    <item name="news_detail_content_TextView" type="id">false</item>
+    <item name="news_detail_content_webView" type="id">false</item>
+
+    <!-- 关于 -->
+    <item name="about_title_TextView" type="id">false</item>
+    <item name="about_version_TextView" type="id">false</item>
+    <item name="about_copyright_TextView" type="id">false</item>
+
+    <!-- setting -->
+    <item name="setting_item_title_TextView" type="id">false</item>
+    <item name="setting_netaddress_ip_EditText" type="id">false</item>
+    <item name="setting_netaddress_port_EditText" type="id">false</item>
+    <item name="setting_item_title_dj_TextView" type="id">false</item>
+    <item name="setting_netaddress_ip_dj_EditText" type="id">false</item>
+    <item name="setting_netaddress_port_dj_EditText" type="id">false</item>
+    <item name="setting_netaddress_default_CheckBox" type="id">false</item>
+    <item name="netsettingtitle" type="id">false</item>
+    <item name="netsettingtitle_dj" type="id">false</item>
+
+    <!-- 快捷办公 -->
+    <item name="quickwork_item_title_TextView" type="id">false</item>
+    <item name="webview_arrow_left" type="id">false</item>
+    <item name="btnphoto" type="id">false</item>
+
+    <!-- 完善用户信息 -->
+    <item name="setting_userinfo_position_EditText" type="id">false</item>
+    <item name="setting_userinfo_name_EditText" type="id">false</item>
+    <item name="setting_userinfo_department_EditText" type="id">false</item>
+    <!-- 修改用户信息 -->
+    <item name="update_userinfo_department_EditText" type="id">false</item>
+    <item name="update_userinfo_position_EditText" type="id">false</item>
+
+    <!-- update -->
+    <item name="update_versioncheck_LoadingView" type="id">false</item>
+    <item name="update_versioncheck_TextView" type="id">false</item>
+    <item name="update_versioncheck_ProgressBar" type="id">false</item>
+    <!-- rightmenu -->
+    <!--<item name="rightmenu_FrameLayout" type="id">false</item>-->
+    <item name="rightmenu_GridView" type="id">false</item>
+    <item name="header_menu_right_ImageView" type="id">false</item>
+    <item name="header_menu_right_TextView" type="id">false</item>
+    <item name="weather_location_LinearLayout" type="id">false</item>
+    <item name="weather_location_Img" type="id">false</item>
+    <item name="weather_location_TextView" type="id">false</item>
+    <item name="weather_item_image_ImageView" type="id">false</item>
+    <item name="weather_item_text_1_TextView" type="id">false</item>
+    <item name="weather_item_text_2_TextView" type="id">false</item>
+    <!-- weather -->
+    <item name="weather_icon_ImageView" type="id">false</item>
+    <item name="weather_state_TextView" type="id">false</item>
+    <item name="weather_temperature_TextView" type="id">false</item>
+    <item name="weather_wind_TextView" type="id">false</item>
+
+    <!-- center_header -->
+    <item type="id" name="center_header_RelativeLayout">false</item>
+    <item type="id" name="center_header_left_ImageView">false</item>
+    <item type="id" name="center_header_title_TextView">false</item>
+    <item type="id" name="center_header_right_FrameLayout">false</item>
+
+   
+	<item name="lv_list" type="id"></item>
+    <item name="txt_name" type="id"></item>
+    <item name="relative_top_title" type="id"></item>
+    <item name="image_top_left" type="id"></item>
+    <item name="txt_top_title" type="id"></item>
+    <item name="btn_top_right" type="id"></item>
+    <item name="img_previous" type="id"></item>
+    <item name="img_next" type="id"></item>
+    <item name="txt_pinyin" type="id"></item>
+    <item name="txt_content" type="id"></item>
+    <item name="img_hanzi" type="id"></item>
+    <item name="btn_voice" type="id"></item>
+    <item name="btn_show" type="id"></item>
+    <item name="btn_read" type="id"></item>
+    <item name="seekbar" type="id"></item>
+    <item name="linear_bottom" type="id"></item>
+    <item name="rl_hanzi" type="id"></item>
+    <item name="linear_operation" type="id"></item>
+    <item name="grv_hanzi" type="id"></item>
+	<item name="txt_starttime" type="id"></item>
+	<item name="txt_endtime" type="id"></item>
+	<item name="chore_time" type="id"></item>
+	<item name="btn_dictation" type="id"></item>
+    <item name="btn_learn" type="id"></item>
+	<item name="pb_bar" type="id"></item>
+
+    <item name="btn_an1" type="id"></item>
+    <item name="btn_an2" type="id"></item>
+    <item name="btn_an3" type="id"></item>
+    <item name="btn_an4" type="id"></item>
+    <item name="btn_an5" type="id"></item>
+    <item name="txt_starttime_eng" type="id"></item>
+    <item name="txt_endtime_eng" type="id"></item>
+    <item name="seekbar_eng" type="id"></item>
+    <item name="linear_bottom_eng" type="id"></item>
+
+
+    <item name="kstk_fenzi" type="id"></item>
+    <item name="kstk_line" type="id"></item>
+    <item name="kstk_fenmu" type="id"></item>
+
+
+</resources>

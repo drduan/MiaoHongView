@@ -1,0 +1,288 @@
+<resources>
+
+    <string name="app_name">易学而乐</string>
+    <string name="app_name_math">数学</string>
+    <string name="app_name_kstk">口算题卡</string>
+    <string name="app_name_aosai">天天奥赛</string>
+    <string name="app_name_error_aosai">错题重做</string>
+    <string name="app_name_aosai_analyze">天天奥赛解析</string>
+    <string name="app_name_kstk_result">成绩单</string>
+    <string name="kstk_result_redo">错题重做</string>
+    
+ 	<!-- 登录界面 -->   
+    <string name="login_view_title">易学而乐</string>
+    <string name="login_view_uidtext">请输入手机号</string>
+    <string name="login_view_pwdtext">请输入密码</string>
+    <string name="login_view_subbut">登录</string>
+    <string name="login_view_ipset">设置</string>
+    <string name="login_view_register">注册</string>
+    
+    <!-- 主功能界面 -->   
+	<string name="main_view_title">学而乐</string>
+	<string name="main_view_exit">退出帐户</string>
+    <string name="main_view_search">输入姓名、身份证</string>
+	
+	<!-- 待办事项列表界面 -->   
+	<string name="dailist_view_title">待办事项列表</string>
+	<string name="yilist_view_title">已办事项列表</string>
+	<string name="yuelist_view_title">待阅事项列表</string>
+
+	<!-- 待办事项详情界面 -->   
+	<string name="daiinfo_view_title">待办事项</string>
+	<string name="yiinfo_view_title">已办事项</string>
+	<string name="yueinfo_view_title">待阅事项</string>
+	<string name="daiinfo_view_but1">表单</string>
+	<string name="daiinfo_view_but2">附件</string>
+	<string name="daiinfo_view_but3">意见</string>
+	<string name="daiinfo_view_but4">流程</string>
+
+	
+	<!-- 消息列表标签 -->
+	<string name="msglist_view_but1">未读通知</string>
+	<string name="msglist_view_but2">已读通知</string>
+    <!--待阅列表标签-->
+    <string name="toRead_view_but1">待阅公文</string>
+    <string name="toRead_view_but2">已阅公文</string>
+	<!-- 消息查询界面 -->
+	<string name="msgsearch_view_title">查询条件</string>
+	<string name="msgsearch_view_txt1">标题</string>
+	<string name="msgsearch_view_txt2">起始时间</string>
+	<string name="msgsearch_view_txt3">结束时间</string>
+	<string name="msgsearch_view_but">确定</string>
+	
+	<!-- 环节意见界面 -->  
+	<string name="daiopinion_view_title">处理意见</string>
+	<string name="daiopinion_view_node">下一环节:</string>
+	<string name="daiopinion_view_user">处理人:</string>
+	<string name="daiopinion_view_hand">手写意见</string>
+	<string name="daiqp_view_title">签发</string>
+	<string name="daiqp_view_user">签发人:</string>
+	<string name="daiqp_view_next">下一步</string>
+	
+	<!-- 手写环节意见界面 -->  
+	<string name="daiopinion_handview_title">手写处理意见</string>
+	
+	<!-- 环节人员界面 -->  
+	<string name="daiuser_view_title">人员选择</string>
+
+    <!-- 环节人员界面 -->
+    <string name="school_view_title">选择学校（班级）</string>
+	<!-- 通讯录列表界面 -->  
+	<string name="address_listview_title">通讯录</string>
+	
+	<!-- 人员信息界面 -->  
+	<string name="userinfo_view_title">个人信息</string>
+	<string name="userinfo_view_dept">所在班级:</string>
+	<string name="userinfo_view_user">姓名:</string>
+	<string name="userinfo_view_phone">电话:</string>
+	<string name="userinfo_view_mobile">移动电话:</string>
+	<string name="userinfo_view_email">电子邮件:</string>
+	<string name="userinfo_view_password">修改密码</string>
+	<string name="userinfo_view_tongxun">添加到手机通讯录</string>
+	<string name="userinfo_view_editsub">提交修改信息</string>
+	
+	<!-- 密码修改界面 --> 
+	<string name="pwd_view_title">密码修改</string>
+	<string name="pwd_view_old"> 旧 密 码:</string>
+	<string name="pwd_view_new1">新 密 码:</string>
+	<string name="pwd_view_new2">确认新密码:</string>
+	<string name="pwd_view_sub">确定</string>
+	
+	<!-- 个人信息界面 --> 
+	<string name="msglist_view_title">通知公告</string>
+	<string name="msginfo_view_title">信息详情</string>
+	<string name="msginfo_view_sender">发送者:</string>
+	
+	<!-- 设置关于界面 -->
+	<string name="ipset_view_title">服务器IP设置</string>
+	<string name="ipset_view_but1">手动配置</string>
+	<string name="ipset_view_but2">APN地址</string>
+	<string name="ipset_view_but3">漫游地址</string>
+	<string name="about_view_title">关于学而乐</string>
+	<string name="about_view_version">版本检查</string>
+	<string name="about_view_cinfo">已是最新版本</string>
+	<string name="about_view_vinfo1">Copyright © 2014 BWZY</string>
+	<string name="about_view_vinfo2">All Rights Reserved</string>
+    <string name="request_timeout">亲！网络不给力哦…</string>
+    <string name="path_expand">展开</string>
+    <string name="path_collapse">收起</string>
+	
+	
+	
+	 <string name="version">v1.02</string>
+    <string name="package_name">com.sfhdj</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="back">返回</string>
+    <string name="loadingdialog_title">正在加载…</string>
+    <string name="loading_data_fail">失败了，点我重新加载</string>
+
+    <string name="nologin">亲！还没有登录哦</string>
+    <string name="developing">该功能暂未开放</string>
+    <string name="parentdialog_title">温馨提示</string>
+    <string name="choice">请选择</string>
+    <string name="wait">请稍候</string>
+    <string name="search">搜索:</string>
+    <string name="input">请输入</string>
+    <string name="exit">退出本应用吗？</string>
+    <string name="iscancelbinding">您确定取消绑定吗？</string>
+    <string name="isdownload">您未安装OA，要下载吗？</string>
+    <string name="outlogin">您确定要退出登录吗？</string>
+    <!-- path -->
+
+    <string name="leftmenu_login">未登录</string>
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新…</string>
+    <string name="p2refresh_doing_end_refresh">加载中…</string>
+    <string name="p2refresh_refresh_lasttime">最近更新 : </string>
+    <string name="column_edit_info_del">点击删除</string>
+    <string name="column_edit_info_add">点击添加</string>
+    <string name="removeItem">删除</string>
+    <!-- 设置 -->
+    <string name="setting">设置</string>
+    <string name="setting_netaddress_title">设置党建网地址</string>
+    <string name="setting_netaddress_dj_title">设置党建平台地址</string>
+    <string name="setting_netaddress_default">默认地址</string>
+    <string name="setting_netaddress_ip">IP地址</string>
+    <string name="setting_netaddress_port">端口</string>
+    <string name="setting_netaddress_colon">:</string>
+    <string-array name="setting_list">
+        <item>网络地址</item>
+        <item>清除缓存</item>
+    </string-array>
+    <!-- 办公 -->
+    <string-array name="quickwork_list">
+        <item>待办</item>
+        <item>邮件</item>
+        <item>通讯录</item>
+        <item>日程安排</item>
+    </string-array>
+    <string name="email">邮件系统</string>
+    <string name="gonggao">公告信息</string>
+    <string name="main_item_ImageView">main_item_ImageView</string>
+    <string name="daibangongwen">待办公文</string>
+    <string name="yibangongwen">已办公文</string>
+    <string name="richenganpai">日程安排</string>
+    <string name="huiyianpai">会议通知</string>
+    <!-- 办事指南 -->
+    <string-array name="workguide_list">
+        <item>出生证</item>
+        <item>结婚证</item>
+        <item>往来港澳通行证</item>
+        <item>独身子女证</item>
+        <item>护照</item>
+    </string-array>
+    <!-- 检查更新 -->
+    <string name="update_checking">正在检测…</string>
+    <string name="update_download">正在下载…</string>
+    <string name="update_finish">下载完成，确定安装更新？</string>
+    <string name="update_download_error">下载出错，退出更新？</string>
+    <string name="update_getinfo_error">已是最新版本</string>
+    <string name="update_latest">已是最新版本</string>
+    <!-- rightmenu -->
+    <string name="weather_separator"> ~ </string>
+    <string name="weather_temperature">℃</string>
+    <string name="weather_power">级</string>
+    <!-- 用户登录 -->
+    <string name="login_hint_name">输入账号</string>
+    <string name="login_hint_pwd">输入密码</string>
+    <string name="login_name">账号:</string>
+    <string name="login_pwd">密码:</string>
+    <string name="login_btn_text">登 录</string>
+    <string name="logout_btn_text">退出登录</string>
+    <string name="regist_btn_text">设  置</string>
+
+    <!-- 用户注册 -->
+    <string name="user_register_btn"> 下一步 </string>
+    <!-- 用户中心 -->
+    <string name="person_pwd_change"> 修改密码 </string>
+    <string name="person_pic_change"> 修改头像 </string>
+    <string name="person_binding_onecard"> 一卡通 </string>
+    <string name="person_binding_oa"> 移动办公 </string>
+    <string name="person_local_photo"> 本地图片 </string>
+    <string name="person_take_photo"> 拍 照 </string>
+    <string name="setting_the_drawinglock"> 安全锁 </string>
+    <string name="person_cancel_photo"> 取消 </string>
+    <!-- 关于 -->
+    <string name="about">关于</string>
+    <string name="about_checkversion">版本检测</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="copyright">Copyright © 2008-2015 大庆市学而乐教育               </string>
+    <string name="about_copyright">Copyright © 2008-2015 大庆市学而乐教育            </string>
+    <string name="about_technical">技术支持：北京博微志远信息技术有限公司</string>
+
+
+    <!-- 意见反馈 -->
+    <string name="submit_feedback">提交</string>
+
+
+    <string name="forgetoutlogin">忘记手势密码，需要重新登录</string>
+    <string name="todo">待办事项</string>
+
+    <string name="account">帐户1157528508</string>
+    <string name="save_password">记住登录密码</string>
+
+    <!-- 主功能界面-学生 -->
+    <string name="main_view_math">数学</string>
+    <string name="main_view_math_kstk">练习口算题卡</string>
+    <string name="main_view_math_error_kstk">口算题卡</string>
+    <string name="main_view_chinese">语文</string>
+    <string name="main_view_english">英语</string>
+    <string name="main_view_aosai">天天奥赛</string>
+    <string name="main_view_everyday">日积月累</string>
+
+    <string name="main_view_shudu">数独</string>
+    <string name="homepage_indicator">课程</string>
+    <string name="billboard_indicator">错题</string>
+    <string name="mylottery_indicator">专题</string>
+    <string name="more_indicator">我的</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_ok"> > </string>
+
+    <string name="title_activity_homepage">HomepageActivity</string>
+    <string name="title_activity_billboard">BillboardActivity</string>
+    <string name="title_activity_my_lottery">MyLotteryActivity</string>
+    <string name="challenge">挑战</string>
+    <string name="nextZu">下一组</string>
+    <string name="viewerror">查看本组错题</string>
+    <string name="kstk_result_error">错题报告单</string>
+    <string name="redo">重做</string>
+
+    <!--<string name="hello_world">Hello world!</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="app_xfid">55f2971f</string>
+
+
+  <string name="myShop">我的购物车</string>
+    <string name="updateShopNum">修改商品数量</string>
+    <string name="updateAddress">修改地址</string>
+    <string name="numberSub">-</string>
+    <string name="numberAdd">+</string>
+    <string name="shopTotalPrice">商品总价(不含运费)</string>
+    <string name="checkOut">结算</string>
+    <string name="delete">删除</string>
+    <string name="collection">收藏</string>
+    
+    <string name="sure">确定</string>
+    <string name="sureOrder">确认订单</string>
+    <string name="leaveMeassge">给卖家留言</string>
+
+
+
+</resources>

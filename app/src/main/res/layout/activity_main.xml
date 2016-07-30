@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.hanzi.hanzibihua.MiaoHongView
+        android:id="@+id/img_hanzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eee" />
+
+    <Button
+        android:id="@+id/btn_lunkuo"
+        android:layout_width="100.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentBottom="true"
+        android:text="轮廓" />
+
+    <Button
+        android:id="@+id/btn_tianchong"
+        android:layout_width="100.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btn_lunkuo"
+        android:text="填充" />
+
+    <Button
+        android:id="@+id/btn_shouxie"
+        android:layout_width="100.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/btn_tianchong"
+        android:text="手写" />
+
+</RelativeLayout>

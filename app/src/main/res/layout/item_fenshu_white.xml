@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="30dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" >
+
+    <TextView
+            android:id="@id/kstk_fenzi"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+
+            android:textSize="24.0sp" />
+
+    <TextView android:layout_marginTop="-20dp"
+              android:id="@id/kstk_line"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:gravity="center_vertical"
+              android:layout_gravity="center_horizontal"
+              android:textColor="#ffffff"
+              android:textSize="36.0sp"  />
+    <TextView android:layout_marginTop="-8dp"
+              android:id="@id/kstk_fenmu"
+              android:layout_width="wrap_content"
+              android:layout_height="30dp"
+              android:layout_gravity="center_horizontal"
+              android:gravity="top"
+              android:textColor="#ffffff"
+              android:textSize="24.0sp" />
+
+</LinearLayout>

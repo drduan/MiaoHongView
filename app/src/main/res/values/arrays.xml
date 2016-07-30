@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="right_grid_title">
+        <item>生活缴费</item>
+        <item>机票</item>
+        <item>火车票</item>
+        <item>电影票</item>
+        <item>手机缴费</item>
+        <!--  <item>晋中热点</item>
+
+        <item>官方发布</item>
+        <item>政务通</item>
+        <item>有话要说</item>
+        <item>便民工具</item>
+        <item>圈内聊</item>-->
+        <item>更多</item>
+    </string-array>
+
+    <array name="right_grid_icon">
+        <item>@drawable/homepage_grid_icon1</item>
+        <item>@drawable/homepage_grid_icon6</item>
+        <item>@drawable/homepage_grid_icon7</item>
+        <item>@drawable/homepage_grid_icon2</item>
+        <item>@drawable/homepage_grid_icon3</item>
+        <item>@drawable/homepage_grid_icon13</item>
+      <!--  <item>@drawable/homepage_grid_icon5</item>
+
+        <item>@drawable/homepage_grid_icon8</item>
+        <item>@drawable/homepage_grid_icon9</item>
+        <item>@drawable/homepage_grid_icon10</item>
+        <item>@drawable/homepage_grid_icon11</item>
+        <item>@drawable/homepage_grid_icon12</item>-->
+    </array>
+
+    <string-array name="tab_title_list">
+        <item>新闻</item>
+        <item>订阅</item>
+        <item>互动</item>
+        <item>投票</item>
+        <item>NEWS</item>
+        <item>READ</item>
+        <item>VOTE</item>
+    </string-array>
+    <string-array name="leftmenu_title_list">
+        <item>党建网</item>
+        <item>党建平台</item>
+        <item>个人空间</item>
+        <item>网淘义工</item>
+        <item>在线学习</item>
+        <item>投诉与建议</item>
+        <item>设置</item>
+        <item>关于</item>
+    </string-array>
+
+    <array name="leftmenu_icon_list">
+        <item>@drawable/leftmenu_read</item>
+        <item>@drawable/leftmenu_cellphone_newpager</item>
+        <item>@drawable/leftmenu_work</item>
+        <item>@drawable/leftmenu_say</item>
+        <item>@drawable/leftmenu_feedback</item>
+        <item>@drawable/leftmenu_interaction</item>
+        <item>@drawable/leftmenu_setting</item>
+        <item>@drawable/leftmenu_about</item>
+
+    </array>
+    <array name="sector_menu_icon_list">
+        <item>@drawable/sector_menu_item_news</item>
+        <item>@drawable/sector_menu_item_work_guide</item>
+        <item>@drawable/sector_menu_item_tools</item>
+        <item>@drawable/sector_menu_item_talk</item>
+        <item>@drawable/sector_menu_item_invent</item>
+    </array>
+
+    <string-array name="weather_life_title_list">
+        <item>穿衣指数</item>
+        <item>感冒指数</item>
+        <item>运动指数</item>
+        <item>紫外线指数</item>
+    </string-array>
+
+    <array name="weather_life_icon_list">
+        <item>@drawable/weather_life_dress</item>
+        <item>@drawable/weather_life_cold</item>
+        <item>@drawable/weather_life_sports</item>
+        <item>@drawable/weather_life_ur</item>
+    </array>
+
+</resources>

@@ -7,7 +7,6 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -23,15 +22,10 @@ import com.example.duanxudong.myapplication.hanzibihua.data.OutlinePoint;
 import com.example.duanxudong.myapplication.hanzibihua.mode.HanZiModel;
 import com.example.duanxudong.myapplication.hanzibihua.utils.ToastUtil;
 import com.google.gson.Gson;
-import com.iflytek.cloud.SpeechError;
-import com.iflytek.cloud.SpeechEvent;
-import com.iflytek.cloud.SynthesizerListener;
-import com.iflytek.sunflower.FlowerCollector;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-import static com.example.duanxudong.myapplication.hanzibihua.utils.pinyin.cn2FirstSpell;
 import static com.example.duanxudong.myapplication.hanzibihua.utils.pinyin.cn2Spell;
 
 public class HanZiShowActivity extends BaseActivity implements View.OnClickListener {
@@ -97,7 +91,6 @@ public class HanZiShowActivity extends BaseActivity implements View.OnClickListe
 							public void run() {
                                 String result = getFromAssets("stroke/one_out.json");
 								outlinePoint = new Gson().fromJson(result, OutlinePoint.class);
-                                Log.e(TAG,outlinePoint.getWord());
 								Message msg = handler.obtainMessage();
 								msg.what = RESULT_HANZIOUTLINE_CODE;
 								handler.sendMessage(msg);
@@ -105,7 +98,6 @@ public class HanZiShowActivity extends BaseActivity implements View.OnClickListe
 						}).start();
 
 				} catch (Exception e) {
-					Log.e(TAG, e.toString());
 					ToastUtil.show(context, "未找到汉字文件!");
 					pb_bar.setVisibility(View.GONE);
 				}
@@ -141,7 +133,6 @@ public class HanZiShowActivity extends BaseActivity implements View.OnClickListe
                 }
             }).start();
         } catch (Exception e) {
-            Log.e(TAG, e.toString());
             ToastUtil.show(context, "未找到汉字文件!");
             pb_bar.setVisibility(View.GONE);
 
@@ -218,7 +209,6 @@ public class HanZiShowActivity extends BaseActivity implements View.OnClickListe
 			if (bihuaPoint == null) {
 
                 // TODO: 16/7/30
-                Log.e("@@",""+index); // 0
 				getFillPoint(index);
 
 			} else {
@@ -230,52 +220,7 @@ public class HanZiShowActivity extends BaseActivity implements View.OnClickListe
 		}
 	}
 	
-	
-	/**
-	 * 合成回调监听。
-	 */
-	private SynthesizerListener mSynListener = new SynthesizerListener() {
 
-		@Override
-		public void onSpeakBegin() {
-			//ToastUtil.show(context, "开始播放");
-		}
-		@Override
-		public void onSpeakPaused() {
-			//ToastUtil.show(context, "暂停播放");
-		}
-		@Override
-		public void onSpeakResumed() {
-			//ToastUtil.show(context, "继续播放");
-		}
-		@Override
-		public void onBufferProgress(int percent, int beginPos, int endPos,
-				String info) {
-			// 合成进度
-		}
-
-		@Override
-		public void onSpeakProgress(int percent, int beginPos, int endPos) {
-			// 播放进度
-		}
-		@Override
-		public void onCompleted(SpeechError error) {
-			if (error == null) {
-				//ToastUtil.show(context, "播放完成");
-			} else if (error != null) {
-				ToastUtil.show(context, error.getPlainDescription(true));
-			}
-		}
-
-		@Override
-		public void onEvent(int eventType, int arg1, int arg2, Bundle obj) {
-			// 以下代码用于获取与云端的会话id，当业务出错时将会话id提供给技术支持人员，可用于查询会话日志，定位出错原因
-			// 若使用本地能力，会话id为null
-				if (SpeechEvent.EVENT_SESSION_ID == eventType) {
-					String sid = obj.getString(SpeechEvent.KEY_EVENT_SESSION_ID);
-			}
-		}
-	};
 	
 	@Override
 	protected void onDestroy() {
@@ -286,15 +231,13 @@ public class HanZiShowActivity extends BaseActivity implements View.OnClickListe
 	@Override
 	protected void onResume() {
 		//移动数据统计分析
-		FlowerCollector.onResume(context);
-		FlowerCollector.onPageStart(TAG);
+
 		super.onResume();
 	}
 	@Override
 	protected void onPause() {
 		//移动数据统计分析
-		FlowerCollector.onPageEnd(TAG);
-		FlowerCollector.onPause(context);
+
 		super.onPause();
 	}
 
